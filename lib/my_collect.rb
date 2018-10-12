@@ -9,3 +9,4 @@ end
 my_collect(collection).map do |name|
   name.split(" ").first
 end
+end
