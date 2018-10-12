@@ -5,3 +5,7 @@ def my_collect(collection)
     i += 1
   end
 end
+
+my_collect(collection) do |name|
+  name.split(" ").first
+end
