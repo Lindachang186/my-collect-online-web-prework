@@ -5,11 +5,11 @@ def my_collect(collection)
     new << yield(collection[i])
     i += 1
   end
-  return collection
+  return new
 end
 
-def my_collect(students)
-  students.collect do |student|
-  student.split(" ").first.upcase
-end
-end
+#def my_collect(students)
+  #students.collect do |student|
+  #student.split(" ").first
+#end
+#end
