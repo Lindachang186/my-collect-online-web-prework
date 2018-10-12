@@ -8,6 +8,4 @@ def my_collect(collection)
   return collection
 end
 
-my_collect(collection).collect do |name|
-  puts name.capitalize
-end
+my_collect(collection) {name.capitalize}
