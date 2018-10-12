@@ -7,6 +7,6 @@ def my_collect(collection)
   return collection
 end
 
-yield(collection).map do |name|
+yielding.map do |name|
   puts name.upcase
 end
