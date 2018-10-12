@@ -6,6 +6,6 @@ def my_collect(collection)
   end
 end
 
-my_collect(collection) do |name|
+my_collect(collection).map do |name|
   name.split(" ").first
 end
