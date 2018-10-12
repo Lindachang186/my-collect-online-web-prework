@@ -8,6 +8,6 @@ def my_collect(collection)
   return collection
 end
 
-my_collect(collection) do |name|
+my_collect(languages) do |name|
   name.split(" ").first
 end
