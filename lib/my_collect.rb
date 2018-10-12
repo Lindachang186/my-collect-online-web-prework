@@ -9,7 +9,7 @@ def my_collect(collection)
 end
 
 def my_collect(students)
-  student.collect do |student|
+  students.collect do |student|
   student.split(" ").first
 end
 end
