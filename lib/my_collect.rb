@@ -10,7 +10,6 @@ end
 
 def my_collect(students)
   students.collect do |student|
-  student.split(" ").first
-  student.upcase
+  student.split(" ").first.upcase
 end
 end
