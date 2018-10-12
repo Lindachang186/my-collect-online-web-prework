@@ -4,9 +4,10 @@ def my_collect(collection)
     yield collection[i]
     i += 1
   end
+  return collection
 end
 
-my_collect(collection).map do |name|
+collection.map do |name|
   name.split(" ").first
 end
-end
+
