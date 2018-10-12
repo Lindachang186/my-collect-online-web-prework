@@ -9,7 +9,7 @@ def my_collect(collection)
 end
 
 def my_collect(languages)
-  languages.map do |language|
-  return language.split(" ").first
+  languages.collect do |language|
+  language.split(" ").first
 end
 end
