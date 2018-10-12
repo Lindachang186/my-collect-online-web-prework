@@ -8,4 +8,6 @@ def my_collect(collection)
   return collection
 end
 
-my_collect(collection) {name.capitalize}
+my_collect(array) do |name|
+  name.split(" ").first
+end
