@@ -10,6 +10,6 @@ end
 
 def my_collect(languages)
   languages.each do |language|
-  language.split(" ").first
+  return language.split(" ").first
 end
 end
