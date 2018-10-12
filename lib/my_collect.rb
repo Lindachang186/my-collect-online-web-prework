@@ -5,7 +5,3 @@ def my_collect(collection)
     i += 1
   end
 end
-
-my_collect(array).map do |name|
-  name.capitalize
-end
