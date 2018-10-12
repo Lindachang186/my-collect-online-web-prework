@@ -6,8 +6,6 @@ def my_collect(collection)
   end
 end
 
-yielding(collection) do |name|
   my_collect(array) do |name|
     name.split(" ").first
   end
-end 
