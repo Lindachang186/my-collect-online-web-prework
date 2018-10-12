@@ -16,6 +16,6 @@ end
 
 def my_collect(languages)
   languages.collect do |language|
-    language.upcase
+    language.upcase << new 
   end
 end
