@@ -8,8 +8,8 @@ def my_collect(collection)
   return collection
 end
 
-def my_collect(languages)
-  languages.collect do |language|
-  language.split(" ").first
+def my_collect(students)
+  student.collect do |student|
+  student.split(" ").first
 end
 end
