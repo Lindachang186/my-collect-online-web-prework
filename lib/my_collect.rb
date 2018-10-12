@@ -8,5 +8,5 @@ def my_collect(collection)
 end
 
 my_collect(collection).map do |name|
-  puts name.capitalize
+  puts name.upcase
 end 
