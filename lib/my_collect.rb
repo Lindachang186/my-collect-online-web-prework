@@ -15,7 +15,7 @@ end
 end
 
 def my_collect(students)
-  student.map do |student|
+  student.each do |student|
     student.upcase
   end
 end
