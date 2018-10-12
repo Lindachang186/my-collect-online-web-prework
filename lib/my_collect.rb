@@ -7,7 +7,6 @@ def my_collect(collection)
   return collection
 end
 
-collection.map do |name|
+array.map do |name|
   name.split(" ").first
 end
-
