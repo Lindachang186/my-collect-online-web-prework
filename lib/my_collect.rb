@@ -10,12 +10,6 @@ end
 
 def my_collect(languages)
   languages.collect do |language|
-  language.split(" ").first
+  language.split(" ").first.upcase
 end
-end
-
-def my_collect(students)
-  student.each do |student|
-    student.upcase
-  end
 end
