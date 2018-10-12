@@ -13,3 +13,9 @@ def my_collect(students)
   student.split(" ").first
 end
 end
+
+my_collect(languages)
+  language.collect do |language|
+    language.upcase
+  end
+end 
