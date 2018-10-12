@@ -8,6 +8,6 @@ def my_collect(collection)
   return collection
 end
 
-new.map do |name|
+my_collect(collection).collect do |name|
   puts name.capitalize
 end
