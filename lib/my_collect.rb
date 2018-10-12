@@ -8,6 +8,7 @@ def my_collect(collection)
   return collection
 end
 
-def my_collect(languages).each do |language|
+def my_collect(languages)
+  languages.each do |language|
   language.split(" ").first
 end
