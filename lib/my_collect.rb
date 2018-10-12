@@ -7,7 +7,3 @@ def my_collect(collection)
   end
   return collection
 end
-
-my_collect(collection).map do |name|
-  puts name.capitalize
-end
