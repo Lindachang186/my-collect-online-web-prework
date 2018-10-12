@@ -6,6 +6,4 @@ def my_collect(collection)
   end
 end
 
-  my_collect(array) do |name|
-    return name.split(" ").first
-  end
+
