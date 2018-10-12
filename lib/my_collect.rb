@@ -10,7 +10,9 @@ end
 
 def my_collect(languages)
   languages.collect do |language|
-  language.capitalize
   language.split(" ").first
 end
+  language.collect do |language|
+    language.upcase
+  end
 end
