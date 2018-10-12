@@ -12,3 +12,4 @@ def my_collect(languages)
   languages.each do |language|
   language.split(" ").first
 end
+end
