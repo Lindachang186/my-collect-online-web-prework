@@ -9,5 +9,4 @@ end
 my_collect(languages)
   languages.map do |name|
     name.capitalizes
-  end
 end
