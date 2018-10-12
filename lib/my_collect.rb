@@ -14,8 +14,8 @@ def my_collect(languages)
 end
 end
 
-def my_collect(languages)
-  languages.collect do |language|
-    language.upcase
+def my_collect(student)
+  student.collect do |student|
+    student.upcase
   end
 end
