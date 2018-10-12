@@ -11,3 +11,4 @@ my_collect(languages)
     name.capitalizes
   end
 end
+end
